@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-color: #fc786d;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+#kalkulyator{
+    height: 600px;
+    width: 450px;
+    border-radius: 30px;
+    background-color: #333a4d;
+}
+#kalkulyator table thead{
+    height: 200px;
+}
+#kalkulyator table thead tr th input{
+    border: none;
+    outline: none;
+    text-align: right;
+    color: white;
+    background-color: transparent;
+    font-size: 35px;
+}
+#kalkulyator table thead tr th input::placeholder{
+    color: white;
+}
+#kalkulyator table tbody{
+    background-color: #fff;
+}
+#kalkulyator table tbody td input{
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:  #fea170;
+    color: white;
+    outline: none;
+    border: none;
+    margin: auto;
+    font-size: 26px;
+}
+#kalkulyator table tbody td{
+    text-align: center;
+    padding: 15px;
+}
+#kalkulyator table  #td-tr td input{
+    background-color: #cacaca;
+    color: black;
+}

@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>
+        Index
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="kalkulyator" name="black">
+        <table>
+            <thead id="table">
+                <tr>
+                    <th colspan="4">
+                        <input type="text" placeholder="0" name="cavab">
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #fea170;">
+                    <td id="7"><input type="button" value="7" id="input7" onclick="Func (7)"></td>
+                    <td id="8"><input type="button" value="8" id="input8" onclick="Func (8)"></td>
+                    <td id="9"><input type="button" value="9" id="input9" onclick="Func (9)"></td>
+                    <td id="+"><input type="button" value="+" class="toplama" onclick="Func ('+')"></td>
+                </tr>
+                <tr style="background-color: #fea170;">
+                    <td id="4"><input type="button" value="4" id="input4" onclick="Func (4)"></td>
+                    <td id="5"><input type="button" value="5" id="input5" onclick="Func (5)"></td>
+                    <td id="6"><input type="button" value="6" id="input6" onclick="Func (6)"></td>
+                    <td id="-"><input type="button" value="-" class="toplama" onclick="Func ('-')"></td>
+                </tr>
+                <tr style="background-color: #fea170;">
+                    <td id="1"><input type="button" value="1" id="input1" onclick="Func (1)"></td>
+                    <td id="2"><input type="button" value="2" id="input2" onclick="Func (2)"></td>
+                    <td id="3"><input type="button" value="3" id="input3" onclick="Func (3)"></td>
+                    <td id="*"><input type="button" value="*" class="toplama" onclick="Func ('*')"></td>
+                </tr>
+                <tr id="td-tr" style="background-color: #cacaca">
+                    <td id="C"><input type="button" value="C" class="toplama" id="inputc" onclick="Clear ()"></td>
+                    <td id="0"><input type="button" value="0" id="input0" onclick="Func (0)"></td>
+                    <td id="/"><input type="button" value="/" class="toplama" onclick="Func ('/')"></td>
+                    <td id="="><input type="button" value="=" class="toplama" onclick="Beraber ()"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+<script src="main.js"></script>
+
+</html>

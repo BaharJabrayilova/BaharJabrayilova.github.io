@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#sec1 {
+    background-image: linear-gradient(0deg, rgba(33, 34, 33, 0.4), rgba(33, 34, 33, 0.4)), url(./sekil1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+#sec1 h3{
+    padding-top: 200px;
+    padding-left: 100px;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+}
+#sec1 h1{
+    padding-left: 100px;
+    color: white;
+    font-size: 90px;
+    font-weight: 500;
+}
+#sec1 button{
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 5px;
+    width: 150px;
+    color: white;
+    border: 2px solid white;
+}
+#sec1 button:hover{
+    background-color: white;
+    color: rgb(63, 63, 63);
+}
+#sec2{
+    background-color: #1181b1;
+    height: 300px;
+}
+#umumi{
+   display: flex;
+   padding-left: 500px;
+   padding-right: 120px;
+}
+#div-1{
+    background-color: white;
+    margin-top: -10%;
+    width: 2500px;
+}
+#div-1 h1{
+    padding: 10px 20px;
+    color: #1181b1;
+}
+#div-1 p{
+    padding: 10px 20px;
+}
+#div-2{
+    background-color: white;
+    margin-top: -10%;
+    width: 2500px;
+}
+#div-2 h1{
+    padding: 10px 20px;
+    color: #1181b1;
+}
+#div-2 p{
+    padding: 10px 20px;
+}
+#sec3{
+    background-color: rgb(41, 41, 41);
+    padding: 50px;
+}
+#sec4{
+    background-color: #1181b1;
+    padding-bottom: 100px;
+}
+#sec4 h1{
+    padding-left: 120px;
+    padding-top: 50px;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+#sec4 p{
+    width: 600px;
+    padding-left: 120px;
+    color: white;
+}
+.container{
+    margin-top: 50px;
+}
+.icon i{
+    color: white;
+    font-size: 70px;
+}
+.icon h2{
+    width: 500px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.icon button{
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 5px;
+    width: 150px;
+    color: white;
+    border: 2px solid white;
+}
+.icon button:hover{
+    background-color: white;
+    color: rgb(63, 63, 63);
+}
+#sec5{
+    background-color: rgb(41, 41, 41);
+}
+#kicikdiv1{
+    display: flex;
+    justify-content: space-between;
+}
+#kicikdiv1 p{
+    width: 900px;
+    color: white;
+    padding: 150px;
+    padding-left: 200px;
+}
+
+#kicikdiv1 img{
+    width: 500px;
+    height: 400px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+#kicikdiv2{
+    display: flex;
+}
+#kicikdiv2 img{
+    width: 600px;
+    height: 300px;
+    padding-left: 200px;
+}
+#kicikdiv2 p{
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 100px;
+    color: white;
+    width: 800px;
+}
+#sec6{
+    background-image: url(./sekil5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+#sec6 h1{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+}
+#sec6 button{
+    margin-left: 600px;
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 5px;
+    width: 150px;
+    color: white;
+    border: 2px solid white;
+}
+#sec6 button:hover{
+    background-color: white;
+    color: rgb(54, 54, 54);
+}
+#sec7{
+    background-color: #1181b1;
+    padding: 100px;
+}
+#sondiv1 h1{
+    color: white;
+}
+#sondiv1 p{
+    color: white;
+}
+#sondiv2 h1{
+    color: white;
+}
+#sondiv2 p{
+    color: white;
+    margin-top: 10px;
+}
+form input{
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+form input::placeholder{
+    color: rgb(187, 187, 187);
+}
+form button{
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 5px;
+    width: 150px;
+    color: white;
+    border: 2px solid white;
+}
+
+form button:hover{
+    background-color: white;
+    color: black;
+}
